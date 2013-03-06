@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://mlwlt.moravia.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://mlwlt.moravia.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://mlwlt.moravia.com/">
+      <s:element name="mlwlt_xliff_mt_echo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xliff_input" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_xliff_mt_echoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mlwlt_xliff_mt_echoResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_xliff_mt_prepare">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xliff_input" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="xliff_input_file_name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_xliff_mt_prepareResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mlwlt_xliff_mt_prepareResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_web_service_information">
+        <s:complexType />
+      </s:element>
+      <s:element name="mlwlt_web_service_informationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mlwlt_web_service_informationResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_job_list">
+        <s:complexType />
+      </s:element>
+      <s:element name="mlwlt_job_listResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mlwlt_job_listResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_job_log">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="job" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="mlwlt_job_logResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mlwlt_job_logResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="mlwlt_xliff_mt_echoSoapIn">
+    <wsdl:part name="parameters" element="tns:mlwlt_xliff_mt_echo" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_xliff_mt_echoSoapOut">
+    <wsdl:part name="parameters" element="tns:mlwlt_xliff_mt_echoResponse" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_xliff_mt_prepareSoapIn">
+    <wsdl:part name="parameters" element="tns:mlwlt_xliff_mt_prepare" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_xliff_mt_prepareSoapOut">
+    <wsdl:part name="parameters" element="tns:mlwlt_xliff_mt_prepareResponse" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_web_service_informationSoapIn">
+    <wsdl:part name="parameters" element="tns:mlwlt_web_service_information" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_web_service_informationSoapOut">
+    <wsdl:part name="parameters" element="tns:mlwlt_web_service_informationResponse" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_job_listSoapIn">
+    <wsdl:part name="parameters" element="tns:mlwlt_job_list" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_job_listSoapOut">
+    <wsdl:part name="parameters" element="tns:mlwlt_job_listResponse" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_job_logSoapIn">
+    <wsdl:part name="parameters" element="tns:mlwlt_job_log" />
+  </wsdl:message>
+  <wsdl:message name="mlwlt_job_logSoapOut">
+    <wsdl:part name="parameters" element="tns:mlwlt_job_logResponse" />
+  </wsdl:message>
+  <wsdl:portType name="mlwlt_serviceSoap">
+    <wsdl:operation name="mlwlt_xliff_mt_echo">
+      <wsdl:input message="tns:mlwlt_xliff_mt_echoSoapIn" />
+      <wsdl:output message="tns:mlwlt_xliff_mt_echoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_xliff_mt_prepare">
+      <wsdl:input message="tns:mlwlt_xliff_mt_prepareSoapIn" />
+      <wsdl:output message="tns:mlwlt_xliff_mt_prepareSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_web_service_information">
+      <wsdl:input message="tns:mlwlt_web_service_informationSoapIn" />
+      <wsdl:output message="tns:mlwlt_web_service_informationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_job_list">
+      <wsdl:input message="tns:mlwlt_job_listSoapIn" />
+      <wsdl:output message="tns:mlwlt_job_listSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_job_log">
+      <wsdl:input message="tns:mlwlt_job_logSoapIn" />
+      <wsdl:output message="tns:mlwlt_job_logSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="mlwlt_serviceSoap" type="tns:mlwlt_serviceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="mlwlt_xliff_mt_echo">
+      <soap:operation soapAction="http://mlwlt.moravia.com/mlwlt_xliff_mt_echo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_xliff_mt_prepare">
+      <soap:operation soapAction="http://mlwlt.moravia.com/mlwlt_xliff_mt_prepare" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_web_service_information">
+      <soap:operation soapAction="http://mlwlt.moravia.com/mlwlt_web_service_information" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_job_list">
+      <soap:operation soapAction="http://mlwlt.moravia.com/mlwlt_job_list" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_job_log">
+      <soap:operation soapAction="http://mlwlt.moravia.com/mlwlt_job_log" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="mlwlt_serviceSoap12" type="tns:mlwlt_serviceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="mlwlt_xliff_mt_echo">
+      <soap12:operation soapAction="http://mlwlt.moravia.com/mlwlt_xliff_mt_echo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_xliff_mt_prepare">
+      <soap12:operation soapAction="http://mlwlt.moravia.com/mlwlt_xliff_mt_prepare" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_web_service_information">
+      <soap12:operation soapAction="http://mlwlt.moravia.com/mlwlt_web_service_information" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_job_list">
+      <soap12:operation soapAction="http://mlwlt.moravia.com/mlwlt_job_list" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mlwlt_job_log">
+      <soap12:operation soapAction="http://mlwlt.moravia.com/mlwlt_job_log" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="mlwlt_service">
+    <wsdl:port name="mlwlt_serviceSoap" binding="tns:mlwlt_serviceSoap">
+      <soap:address location="http://localhost/mlwlt-service-xliff-mt/mlwlt-service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="mlwlt_serviceSoap12" binding="tns:mlwlt_serviceSoap12">
+      <soap12:address location="http://localhost/mlwlt-service-xliff-mt/mlwlt-service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

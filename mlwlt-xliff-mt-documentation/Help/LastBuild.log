@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder" version="1.9.6.0" projectFile="C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\mlwlt-xliff-mt-documentation.shfbproj" started="31.1.2013 15:16:01">
+<buildStep step="Initializing">
+Finding tools...
+Found Sandcastle tools in &#39;C:\Program Files\Sandcastle\&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files\HTML Help Workshop\&#39;
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\mlwlt-xliff-mt.csproj
+    Found project &#39;C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\mlwlt-xliff-mt.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\bin\Debug\mlwlt-xliff-mt.dll&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\bin\Debug\mlwlt-xliff-mt.xml -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\mlwlt-xliff-mt.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00.0430
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  MRefBuilder (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loaded 1 assemblies for reflection and 0 dependency assemblies.
+  Info: Wrote information on 1 namespaces, 2 types, and 6 members
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\MergeDuplicates.xsl&#39;.
+    Last step completed in 00:00:01.2887
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0156
+</buildStep>
+<buildStep step="ApplyVisibilityProperties">
+Applying visibility properties to reflection information file
+    0 attribute nodes removed
+    0 explicit interface implementations removed
+    0 local and base class EII elements removed
+    Last step completed in 00:00:00.0780
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\AddGuidFilenames.xsl&#39;.
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+    Last step completed in 00:00:01.0607
+</buildStep>
+<buildStep step="ModifyHelpTopicFilenames">
+Modifying help topic filenames in reflection information file
+    No changes required
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="CopyStandardContent">
+Copying standard help content...
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\adm.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\adm.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\adm_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\adm_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\adm_dev.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\adm_dev.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\adm_dev_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\adm_dev_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\alert_caution.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\alert_caution.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\alert_note.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\alert_note.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\alert_security.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\alert_security.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\big_adm.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\big_adm.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\big_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\big_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\big_dev.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\big_dev.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\big_kw.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\big_kw.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\box.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\box.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\Caution.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\Caution.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\CFW.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\collall.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\collall.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\collapse.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\collapse.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\collapse_all.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\collapse_all.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\copycode.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\copycode.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\copycodeHighlight.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\copycodeHighlight.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\dev.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\dev.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\dev_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\dev_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\dropdown.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\dropdown.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\dropdownHover.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\dropdownHover.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\drpdown.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\drpdown.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\drpdown_orange.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\drpdown_orange.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\drpdown_orange_up.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\drpdown_orange_up.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\drpup.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\drpup.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\exp.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\exp.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\expall.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\expall.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\expand_all.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\expand_all.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\filter1a.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\filter1a.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\filter1c.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\filter1c.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\footer.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\footer.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\gradient.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\gradient.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\greencheck.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\greencheck.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\greychck.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\greychck.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\header_prev_next.jpg -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\header_prev_next.jpg
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_blank.jpg -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_blank.jpg
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\header_sql_tutorial_logo.GIF -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\header_sql_tutorial_logo.GIF
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_adm.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_adm_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_adm_dev_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_adm_dev_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_dev.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_dev.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\kw_dev_arch.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\kw_dev_arch.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\LastChild.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\LastChild.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\load.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\load.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\load_hover.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\load_hover.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\note.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\note.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pencil.GIF -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pencil.GIF
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privclass.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privdelegate.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privenum.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privenum.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privenumeration.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privevent.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privextension.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privfield.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privinterface.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privmethod.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privproperty.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\privstructure.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protclass.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protdelegate.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protenum.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protenum.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protenumeration.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protevent.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protextension.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protfield.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protinterface.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protmethod.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protoperator.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protproperty.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\protstructure.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubclass.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubdelegate.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubenum.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubenum.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubenumeration.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubevent.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubextension.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubfield.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubinterface.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubmethod.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\puboperator.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubproperty.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\pubstructure.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\requirements1a.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\requirements1a.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\requirements1c.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\requirements1c.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\save.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\save.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\save_hover.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\save_hover.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\security.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\security.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\seealso1a.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\seealso1a.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\seealso1c.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\seealso1c.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\slMobile.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\static.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\icons\xna.gif -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\CheckboxMenu.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\CheckboxMenu.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\CommonUtilities.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\CommonUtilities.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\Dropdown.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\Dropdown.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\EventUtilities.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\EventUtilities.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\script_feedBack.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\script_feedBack.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\script_manifold.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\script_manifold.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\scripts\SplitScreen.js -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\scripts\SplitScreen.js
+C:\Program Files\Sandcastle\\Presentation\VS2005\styles\Presentation.css -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\styles\Presentation.css
+C:\Program Files\Sandcastle\\Presentation\VS2005\styles\Whidbey\Presentation.css -&gt; C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\styles\Whidbey\Presentation.css
+    Last step completed in 00:00:00.2652
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  XslTransform (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Applying XSL transformation &#39;C:\Program Files\Sandcastle\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.4732
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.0300
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\sandcastle.config
+    Last step completed in 00:00:00.1400
+</buildStep>
+<buildStep step="BuildReferenceTopics">
+Building reference help topics...
+[c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  BuildAssembler (v2.7.2.0)
+  Copyright c 2006-2012, Microsoft Corporation, All Rights Reserved
+  Info: Loading configuration...
+  Info: Processing topics...
+  Warn: ShowMissingComponent: [N:mlwlt_xliff_mt] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [M:mlwlt_xliff_mt.Job.Process] Missing &lt;summary&gt; documentation
+  Warn: ShowMissingComponent: [T:mlwlt_xliff_mt.Language] Missing &lt;summary&gt; documentation
+  Info: Processed 13 topics
+    Last step completed in 00:00:46.9117
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0100
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+Sandcastle Help File Builder, version 1.9.6.0
+Copyright c 2006-2012, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing Help 1 files in C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1
+Processed 13 HTML files
+Sorting keywords and generating See Also indices
+Saving HTML Help 1 keyword index to C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\mlwlt_xliff_mt_documentation.hhk
+Saving HTML Help 1 table of contents to C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\mlwlt_xliff_mt_documentation.hhc
+    Last step completed in 00:00:00.3800
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating HTML Help 1 table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpFileIndex">
+Generating HTML Help 1 index file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[c:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\mlwlt_xliff_mt_documentation.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  15	Topics
+  
+  148	Local links
+  
+  115	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt-documentation\Help\Working\Output\HtmlHelp1\mlwlt_xliff_mt_documentation.chm, 101,646 bytes
+  
+  Compression decreased file by 243,414 bytes.
+  
+    Last step completed in 00:00:01.3299
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0800
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 01.31.2013 03:16 odp..  Total time: 00:00:52,2500
+
+</buildStep>
+</shfbBuild>

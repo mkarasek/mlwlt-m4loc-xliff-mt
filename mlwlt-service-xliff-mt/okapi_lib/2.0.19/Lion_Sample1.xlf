@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" version="1.2">
+  <file category="Arts" datatype="plaintext" original="" source-language="English" target-language="Spanish">
+        <header>
+            <phase-group>
+                <phase company-name="CNGL" contact-email="fake@tcd.ie" contact-name="dave" created-by="dave" date="2012/10/12 15:01:15" job-id="1" phase-name="Project Kick-Off" process-name="Start" tool-id="WFR"/>
+            </phase-group>
+            <reference>
+                <internal-file>
+                    <converted-file fileformat="text"/>
+                </internal-file>
+            </reference>
+            <reference>
+                <internal-file>
+                    <pmui-data budget="0" deadline="31/10/2012" lmc="NO" pdescription="Testing with the demo files" pname="Demo testing" qrequirement="HIGH" startdate="15/10/2012" use-mt="YES" use-rating="NO"/>
+                </internal-file>
+            </reference>
+            <tool tool-id="CMG" tool-name="CMS-L10N Generator" tool-version="2.0"/>
+            <reference/>
+            <internal-file form="text">
+                <workflow>
+                    <task order="1" tool-id="CMP"/>
+                    <task order="2" tool-id="COMSIM"/>
+                    <task order="3" tool-id="MT"/>
+                </workflow>
+            </internal-file>
+            <phase-group>
+                <phase date="2012/10/12 15:01:22" phase-name="Crowdsourcing" process-name="CMS-L1ON Processing" tool-id="CMP"/>
+                <phase date="2012/10/12 15:01:22" phase-name="LocConnect Component Simulator" process-name="LocConnect Component Simulator" tool-id="COMSIM"/>
+                <phase date="2012/10/12 15:01:22" tool-id="MT"/>
+            </phase-group>
+        </header>
+        <body>
+            <group>
+                <count-group name="word_count">
+                    <count count-type="total" unit="word">79</count>
+                </count-group>
+                <count-group name="segment_count">
+                    <count count-type="total" unit="segment">5</count>
+                </count-group>
+                <count-group name="character_count">
+                    <count count-type="total" unit="character">1</count>
+                </count-group>
+            </group>
+            <trans-unit id="#1" okp:itsDomain="classical-studies">
+                <source xml:lang="English">Classical Studies</source>
+            </trans-unit>
+            <trans-unit id="#2" okp:itsDomain="classical-studies">
+                <source xml:lang="English">
+                    <mrk mtype="x-DNT">Homo sum; humani nil a me alienum puto....</mrk>(I am human; I think nothing human foreign to me....)
+                </source>
+            </trans-unit>
+            <trans-unit id="#3" okp:itsDomain="classical-studies">
+                <source xml:lang="English">The word 'classics' is derived from the Latin adjective
+                    <mrk mtype="x-DNT">classicus</mrk>: 'belonging to the highest class of citizens'  connoting superiority  authority  and perfection.
+                </source>
+            </trans-unit>
+            <trans-unit id="#4">
+                <source xml:lang="English">The first 'Classic' writer was Aulus Gellius  a 2nd-century Roman writer who  in the miscellany Noctes Atticae (19  8  15)  refers to a writer as a
+                    <mrk mtype="x-DNT">Classicus scriptor  non proletarius</mrk>('A distinguished  not a commonplace writer').
+                </source>
+            </trans-unit>
+            <trans-unit id="#5" okp:itsDomain="classical-quotes" >
+                <source xml:lang="English">
+                    <mrk mtype="x-DNT">'Felix  qui potuit rerum cognoscere causas</mrk>' is verse 490 of the '
+                    <mrk comment="http://dbpedia.org/page/Georgics" mtype="phrase">Georgics</mrk>' (29 BC)  by the Latin poet '
+                    <mrk comment="http://dbpedia.org/page/Virgil" mtype="phrase">Virgil</mrk>It is literally translated as:'Fortunate who was able of things to know the causes'
+                </source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

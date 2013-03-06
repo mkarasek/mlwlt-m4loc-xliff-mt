@@ -1,0 +1,9 @@
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Release\mlwlt-win-test.exe
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Release\mlwlt-win-test.pdb
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\mlwlt_win_test.Form1.resources
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\mlwlt_win_test.Properties.Resources.resources
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\mlwlt-win-test.exe
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Release\mlwlt-win-test.pdb

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="windows-1250"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" version="1.2">
+  <file category="Arts" datatype="plaintext" original="" source-language="English" target-language="Spanish">
+    <header>
+      <phase-group>
+        <phase company-name="CNGL" contact-email="fake@tcd.ie" contact-name="dave" created-by="dave" date="2012/10/12 15:01:15" job-id="1" phase-name="Project Kick-Off" process-name="Start" tool-id="WFR"></phase>
+      </phase-group>
+      <reference>
+        <internal-file>
+          <converted-file fileformat="text"></converted-file>
+        </internal-file>
+      </reference>
+      <reference>
+        <internal-file>
+          <pmui-data budget="0" deadline="31/10/2012" lmc="NO" pdescription="Testing with the demo files" pname="Demo testing" qrequirement="HIGH" startdate="15/10/2012" use-mt="YES" use-rating="NO"></pmui-data>
+        </internal-file>
+      </reference>
+      <tool tool-id="CMG" tool-name="CMS-L10N Generator" tool-version="2.0"></tool>
+      <reference></reference>
+      <internal-file form="text">
+        <workflow>
+          <task order="1" tool-id="CMP"></task>
+          <task order="2" tool-id="COMSIM"></task>
+          <task order="3" tool-id="MT"></task>
+        </workflow>
+      </internal-file>
+      <phase-group>
+        <phase date="2012/10/12 15:01:22" phase-name="Crowdsourcing" process-name="CMS-L1ON Processing" tool-id="CMP"></phase>
+        <phase date="2012/10/12 15:01:22" phase-name="LocConnect Component Simulator" process-name="LocConnect Component Simulator" tool-id="COMSIM"></phase>
+        <phase date="2012/10/12 15:01:22" tool-id="MT"></phase>
+      </phase-group>
+    </header>
+    <body>
+      <group>
+        <count-group name="word_count">
+          <count count-type="total" unit="word">79</count>
+        </count-group>
+        <count-group name="segment_count">
+          <count count-type="total" unit="segment">5</count>
+        </count-group>
+        <count-group name="character_count">
+          <count count-type="total" unit="character">1</count>
+        </count-group>
+      </group>
+      <trans-unit id="#1" okp:itsDomain="classical-studies">
+        <source xml:lang="English">Classical Studies</source>
+      <target xml:lang="spanish"></target>
+<alt-trans match-quality="10" origin="Moses-MT" xmlns:okp="okapi-framework:xliff-extensions" okp:matchType="MT">
+<target xml:lang="spanish">Classical Studies</target>
+</alt-trans>
+</trans-unit>
+      <trans-unit id="#2" okp:itsDomain="classical-studies">
+        <source xml:lang="English"><mrk mtype="protected">Homo sum; humani nil a me alienum puto....</mrk> (I am human; I think nothing human foreign to me....)</source>
+      <target xml:lang="spanish"></target>
+<alt-trans match-quality="10" origin="Moses-MT" xmlns:okp="okapi-framework:xliff-extensions" okp:matchType="MT">
+<target xml:lang="spanish"><bx id="1"/><ex id="1"/></target>
+</alt-trans>
+</trans-unit>
+      <trans-unit id="#3" okp:itsDomain="classical-studies">
+        <source xml:lang="English">The word 'classics' is derived from the Latin adjective <mrk mtype="protected">classicus</mrk>: 'belonging to the highest class of citizens' connoting superiority authority and perfection.</source>
+      <target xml:lang="spanish"></target>
+<alt-trans match-quality="10" origin="Moses-MT" xmlns:okp="okapi-framework:xliff-extensions" okp:matchType="MT">
+<target xml:lang="spanish"><g id="1"></g></target>
+</alt-trans>
+</trans-unit>
+    </body>
+  </file>
+</xliff>

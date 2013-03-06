@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://localhost/mlwlt-service-xliff-mt/mlwlt-service.asmx?wsdl" docRef="http://localhost/mlwlt-service-xliff-mt/mlwlt-service.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://localhost/mlwlt-service-xliff-mt/mlwlt-service.asmx" xmlns:q1="http://mlwlt.moravia.com/" binding="q1:mlwlt_serviceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://localhost/mlwlt-service-xliff-mt/mlwlt-service.asmx" xmlns:q2="http://mlwlt.moravia.com/" binding="q2:mlwlt_serviceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

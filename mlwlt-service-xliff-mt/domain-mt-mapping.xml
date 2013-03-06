@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <domain-mapping>
+
+    <language-pair  source-language="English" target-language="Spanish">
+      <domain name="Generic">
+        <mt-engine>
+          <mt-engine-url></mt-engine-url>
+          <mt-engine-port></mt-engine-port>
+          <mt-engine-login></mt-engine-login>
+          <mt-engine-password></mt-engine-password>
+        </mt-engine>
+        <its-domains>
+          <its-domain>Default</its-domain>
+        </its-domains>
+      </domain>
+      <domain name="Classical Studies">
+        <mt-engine>
+          <mt-engine-url></mt-engine-url>
+          <mt-engine-port></mt-engine-port>
+          <mt-engine-login></mt-engine-login>
+          <mt-engine-password></mt-engine-password>
+        </mt-engine>
+        <its-domains>
+          <its-domain>classical-studies</its-domain>
+        </its-domains>
+      </domain>
+      <domain name="Automotive">
+        <mt-engine>
+          <mt-engine-url></mt-engine-url>
+          <mt-engine-port></mt-engine-port>
+          <mt-engine-login></mt-engine-login>
+          <mt-engine-password></mt-engine-password>
+        </mt-engine>
+        <its-domains>
+          <its-domain>Auto</its-domain>
+        </its-domains>
+      </domain>
+    </language-pair>
+
+    <language-pair  source-language="English" target-language="German">
+      <domain name="Generic">
+        <mt-engine>
+          <mt-engine-url></mt-engine-url>
+          <mt-engine-port></mt-engine-port>
+          <mt-engine-login></mt-engine-login>
+          <mt-engine-password></mt-engine-password>
+        </mt-engine>
+        <its-domains>
+          <its-domain>Default</its-domain>
+          <its-domain>classical-quotes</its-domain>
+        </its-domains>
+      </domain>
+    </language-pair>
+
+  </domain-mapping>

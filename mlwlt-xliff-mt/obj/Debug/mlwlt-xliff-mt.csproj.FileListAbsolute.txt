@@ -1,0 +1,6 @@
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\bin\Debug\mlwlt-xliff-mt.xml
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\bin\Debug\mlwlt-xliff-mt.dll
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\bin\Debug\mlwlt-xliff-mt.pdb
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\obj\Debug\mlwlt-xliff-mt.dll
+C:\Projects\Internal - .NET\mlwlt\mlwlt-xliff-mt\obj\Debug\mlwlt-xliff-mt.pdb

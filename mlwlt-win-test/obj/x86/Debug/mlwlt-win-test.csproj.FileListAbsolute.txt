@@ -1,0 +1,12 @@
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Debug\mlwlt-win-test.exe
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Debug\mlwlt-win-test.pdb
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Debug\mlwlt-xliff-mt.dll
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Debug\mlwlt-xliff-mt.pdb
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\bin\Debug\mlwlt-xliff-mt.xml
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\mlwlt_win_test.frmMain.resources
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\mlwlt_win_test.Properties.Resources.resources
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\mlwlt-win-test.exe
+C:\Projects\Internal - .NET\mlwlt\mlwlt-win-test\obj\x86\Debug\mlwlt-win-test.pdb

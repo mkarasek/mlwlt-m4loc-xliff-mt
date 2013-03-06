@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<langs>
+	<lang id="1">
+		<name>Afrikaans</name>
+		<nativeName>Afrikaans</nativeName>
+    <code engine="GT">af</code>
+    <code engine="dbpedia">af</code>
+  </lang>
+	<lang id="2">
+		<name>Albanian</name>
+		<nativeName>Shqip</nativeName>
+		<code engine="GT">sq</code>
+    <code engine="dbpedia">sq</code>
+	</lang>
+	<lang id="3">
+		<name>Amharic</name>
+		<nativeName>Amharic</nativeName>
+		<code engine="GT">am</code>
+    <code engine="dbpedia">am</code>
+	</lang>
+	<lang id="4">
+		<name>Arabic</name>
+		<nativeName>عربي</nativeName>
+		<code engine="GT">ar</code>
+		<code engine="MS">ar</code>
+    <code engine="dbpedia">af</code>
+	</lang>
+	<lang id="5">
+		<name>Armenian</name>
+		<nativeName>Հայերէն</nativeName>
+		<code engine="GT">hy</code>
+    <code engine="dbpedia">hy</code>
+	</lang>
+	<lang id="6">
+		<name>Azerbaijani</name>
+		<nativeName>آذربایجان دیلی</nativeName>
+    <code engine="GT">az</code>
+    <code engine="dbpedia">az</code>
+  </lang>
+	<lang id="7">
+		<name>Basque</name>
+		<nativeName>Euskara</nativeName>
+    <code engine="GT">eu</code>
+    <code engine="dbpedia">eu</code>
+  </lang>
+	<lang id="8">
+		<name>Belarusian</name>
+		<nativeName>Беларуская</nativeName>
+    <code engine="GT">be</code>
+    <code engine="dbpedia">be</code>
+  </lang>
+	<lang id="9">
+		<name>Bengali</name>
+		<nativeName>Bengali</nativeName>
+    <code engine="GT">bn</code>
+    <code engine="dbpedia">bn</code>
+  </lang>
+	<lang id="10">
+		<name>Bihari</name>
+		<nativeName>Bihari</nativeName>
+    <code engine="GT">bh</code>
+    <code engine="dbpedia">bh</code>
+  </lang>
+	<lang id="11">
+		<name>Bulgarian</name>
+		<nativeName>Български</nativeName>
+		<code engine="GT">bg</code>
+    <code engine="MS">bg</code>
+    <code engine="dbpedia">bg</code>
+  </lang>
+	<lang id="12">
+		<name>Burmese</name>
+		<nativeName>Burmese</nativeName>
+    <code engine="GT">my</code>
+    <code engine="dbpedia">my</code>
+  </lang>
+	<lang id="13">
+		<name>Catalan</name>
+		<nativeName>Català</nativeName>
+		<code engine="GT">ca</code>
+    <code engine="MS">ca</code>
+    <code engine="dbpedia">ca</code>
+  </lang>
+	<lang id="14">
+		<name>Croatian</name>
+		<nativeName>Hrvatski</nativeName>
+    <code engine="GT">hr</code>
+    <code engine="dbpedia">hr</code>
+  </lang>
+	<lang id="15">
+		<name>Czech</name>
+		<nativeName>Čeština</nativeName>
+		<code engine="GT">cs</code>
+		<code engine="MO">cz</code>
+		<code engine="MS">cs</code>
+		<code engine="LW">cze</code>
+    <code engine="dbpedia">cs</code>
+  </lang>
+	<lang id="16">
+		<name>Danish</name>
+		<nativeName>Dansk</nativeName>
+		<code engine="GT">da</code>
+		<code engine="MS">da</code>
+	</lang>
+	<lang id="17">
+		<name>Dhivehi</name>
+		<nativeName>Dhivehi</nativeName>
+		<code engine="GT">dv</code>
+	</lang>
+	<lang id="18">
+		<name>Dutch</name>
+		<nativeName>Nederlands</nativeName>
+		<code engine="AO">nl</code>
+		<code engine="GT">nl</code>
+		<code engine="MS">nl</code>
+		<code engine="LW">dut</code>
+	</lang>
+	<lang id="19">
+		<name>English</name>
+		<nativeName>English</nativeName>
+		<code engine="AO">en</code>
+		<code engine="GT">en</code>
+		<code engine="MO">en</code>
+		<code engine="MS">en</code>
+		<code engine="LW">eng</code>
+	</lang>
+	<lang id="20">
+		<name>Esperanto</name>
+		<nativeName>Esperanto</nativeName>
+		<code engine="GT">eo</code>
+	</lang>
+	<lang id="21">
+		<name>Estonian</name>
+		<nativeName>Eesti keel</nativeName>
+		<code engine="GT">et</code>
+		<code engine="MS">et</code>
+	</lang>
+	<lang id="22">
+		<name>Filipino</name>
+		<nativeName>Filipino</nativeName>
+		<code engine="GT">tl</code>
+	</lang>
+	<lang id="23">
+		<name>Finnish</name>
+		<nativeName>Suomi</nativeName>
+		<code engine="GT">fi</code>
+		<code engine="MS">fi</code>
+	</lang>
+	<lang id="24">
+		<name>French</name>
+		<nativeName>Français</nativeName>
+		<code engine="AO">fr</code>
+		<code engine="GT">fr</code>
+		<code engine="MS">fr</code>
+		<code engine="LW">fra</code>
+    <code engine="dbpedia">fr</code>
+  </lang>
+	<lang id="25">
+		<name>Galician</name>
+		<nativeName>Galego</nativeName>
+		<code engine="GT">gl</code>
+	</lang>
+	<lang id="26">
+		<name>Georgian</name>
+		<nativeName>ქართული</nativeName>
+		<code engine="GT">ka</code>
+	</lang>
+	<lang id="27">
+		<name>German</name>
+		<nativeName>Deutsch</nativeName>
+		<code engine="AO">de</code>
+		<code engine="GT">de</code>
+		<code engine="MS">de</code>
+		<code engine="LW">ger</code>
+	</lang>
+	<lang id="28">
+		<name>Greek</name>
+		<nativeName>Ελληνικά</nativeName>
+		<code engine="GT">el</code>
+		<code engine="MS">el</code>
+	</lang>
+	<lang id="29">
+		<name>Guarani</name>
+		<nativeName>Guarani</nativeName>
+		<code engine="GT">gn</code>
+	</lang>
+	<lang id="30">
+		<name>Gujarati</name>
+		<nativeName>Gujarati</nativeName>
+		<code engine="GT">gu</code>
+	</lang>
+	<lang id="31">
+		<name>Haitian Creole</name>
+		<nativeName>Kreyòl ayisyen</nativeName>
+		<code engine="MS">ht</code>
+	</lang>
+	<lang id="32">
+		<name>Hebrew</name>
+		<nativeName>עברית</nativeName>
+		<code engine="MS">he</code>
+		<code engine="GT">iw</code>
+	</lang>
+	<lang id="33">
+		<name>Hindi</name>
+		<nativeName>हिन्दी</nativeName>
+		<code engine="GT">hi</code>
+		<code engine="MS">hi</code>
+	</lang>
+	<lang id="34">
+		<name>Hungarian</name>
+		<nativeName>Magyar</nativeName>
+		<code engine="GT">hu</code>
+		<code engine="MS">hu</code>
+		<code engine="LW">hun</code>
+	</lang>
+	<lang id="35">
+		<name>Cherokee</name>
+		<nativeName>Cherokee</nativeName>
+		<code engine="GT">chr</code>
+	</lang>
+	<lang id="36">
+		<name>Chinese (Simplified)</name>
+		<nativeName>中文简体</nativeName>
+		<code engine="AO">zh</code>
+		<code engine="LW">chi</code>
+		<code engine="GT">zh-cn</code>
+		<code engine="MS">zh-chs</code>
+	</lang>
+	<lang id="37">
+		<name>Chinese (Traditional)</name>
+		<nativeName>中文繁體</nativeName>
+		<code engine="AO">zh-hk</code>
+		<code engine="GT">zh-tw</code>
+		<code engine="MS">zh-cht</code>
+	</lang>
+	<lang id="38">
+		<name>Icelandic</name>
+		<nativeName>Íslenska</nativeName>
+		<code engine="GT">is</code>
+	</lang>
+	<lang id="39">
+		<name>Indonesian</name>
+		<nativeName>Bahasa Indonesia</nativeName>
+		<code engine="GT">id</code>
+		<code engine="MS">id</code>
+	</lang>
+	<lang id="40">
+		<name>Inuktitut</name>
+		<nativeName>Inuktitut</nativeName>
+		<code engine="GT">iu</code>
+	</lang>
+	<lang id="41">
+		<name>Irish</name>
+		<nativeName>Gaeilge</nativeName>
+		<code engine="GT">ga</code>
+	</lang>
+	<lang id="42">
+		<name>Italian</name>
+		<nativeName>Italiano</nativeName>
+		<code engine="GT">it</code>
+		<code engine="MS">it</code>
+		<code engine="LW">ita</code>
+	</lang>
+	<lang id="43">
+		<name>Japanese</name>
+		<nativeName>日本語</nativeName>
+		<code engine="AO">ja</code>
+		<code engine="GT">ja</code>
+		<code engine="MS">ja</code>
+	</lang>
+	<lang id="44">
+		<name>Kannada</name>
+		<nativeName>Kannada</nativeName>
+		<code engine="GT">kn</code>
+	</lang>
+	<lang id="45">
+		<name>Kazakh</name>
+		<nativeName>Kazakh</nativeName>
+		<code engine="GT">kk</code>
+	</lang>
+	<lang id="46">
+		<name>Khmer</name>
+		<nativeName>Khmer</nativeName>
+		<code engine="GT">km</code>
+	</lang>
+	<lang id="47">
+		<name>Korean</name>
+		<nativeName>한국어</nativeName>
+		<code engine="GT">ko</code>
+		<code engine="MS">ko</code>
+	</lang>
+	<lang id="48">
+		<name>Kurdish</name>
+		<nativeName>Kurdish</nativeName>
+		<code engine="GT">ku</code>
+	</lang>
+	<lang id="49">
+		<name>Kyrgyz</name>
+		<nativeName>Kyrgyz</nativeName>
+		<code engine="GT">ky</code>
+	</lang>
+	<lang id="50">
+		<name>Laothian</name>
+		<nativeName>Laothian</nativeName>
+		<code engine="GT">lo</code>
+	</lang>
+	<lang id="51">
+		<name>Latvian</name>
+		<nativeName>Latviešu</nativeName>
+		<code engine="GT">lv</code>
+		<code engine="MS">lv</code>
+	</lang>
+	<lang id="52">
+		<name>Lithuanian</name>
+		<nativeName>Lietuvių kalba</nativeName>
+		<code engine="GT">lt</code>
+		<code engine="MS">lt</code>
+	</lang>
+	<lang id="53">
+		<name>Macedonian</name>
+		<nativeName>Македонски</nativeName>
+		<code engine="GT">mk</code>
+	</lang>
+	<lang id="54">
+		<name>Malay</name>
+		<nativeName>Malay</nativeName>
+		<code engine="GT">ms</code>
+	</lang>
+	<lang id="55">
+		<name>Malayalam</name>
+		<nativeName>Malayalam</nativeName>
+		<code engine="GT">ml</code>
+	</lang>
+	<lang id="56">
+		<name>Maltese</name>
+		<nativeName>Malti</nativeName>
+		<code engine="GT">mt</code>
+	</lang>
+	<lang id="57">
+		<name>Marathi</name>
+		<nativeName>Marathi</nativeName>
+		<code engine="GT">mr</code>
+	</lang>
+	<lang id="58">
+		<name>Mongolian</name>
+		<nativeName>Mongolian</nativeName>
+		<code engine="GT">mn</code>
+	</lang>
+	<lang id="59">
+		<name>Nepali</name>
+		<nativeName>Nepali</nativeName>
+		<code engine="GT">ne</code>
+	</lang>
+	<lang id="60">
+		<name>Norwegian</name>
+		<nativeName>Norsk</nativeName>
+		<code engine="GT">no</code>
+		<code engine="MS">no</code>
+	</lang>
+	<lang id="61">
+		<name>Oriya</name>
+		<nativeName>Oriya</nativeName>
+		<code engine="GT">or</code>
+	</lang>
+	<lang id="62">
+		<name>Pashto</name>
+		<nativeName>Pashto</nativeName>
+		<code engine="GT">ps</code>
+	</lang>
+	<lang id="63">
+		<name>Persian</name>
+		<nativeName>فارسی</nativeName>
+		<code engine="GT">fa</code>
+	</lang>
+	<lang id="64">
+		<name>Polish</name>
+		<nativeName>Polski</nativeName>
+		<code engine="AO">pl</code>
+		<code engine="GT">pl</code>
+		<code engine="MO">pl</code>
+		<code engine="MS">pl</code>
+	</lang>
+  <lang id="65">
+    <name>Portuguese (Brasilian)</name>
+    <nativeName>Português (Brasilian)</nativeName>
+    <code engine="AO">pt-br</code>
+    <code engine="LW">ptb</code>
+  </lang>
+  <lang id="66">
+		<name>Portuguese</name>
+		<nativeName>Português</nativeName>
+		<code engine="AO">pt</code>
+		<code engine="MS">pt</code>
+		<code engine="GT">pt-pt</code>
+		<code engine="LW">por</code>
+	</lang>
+	<lang id="67">
+		<name>Punjabi</name>
+		<nativeName>Punjabi</nativeName>
+		<code engine="GT">pa</code>
+	</lang>
+	<lang id="68">
+		<name>Romanian</name>
+		<nativeName>Română</nativeName>
+		<code engine="GT">ro</code>
+		<code engine="MS">ro</code>
+	</lang>
+	<lang id="69">
+		<name>Russian</name>
+		<nativeName>Русский</nativeName>
+		<code engine="AO">ru</code>
+		<code engine="GT">ru</code>
+		<code engine="MS">ru</code>
+	</lang>
+	<lang id="70">
+		<name>Sanskrit</name>
+		<nativeName>Sanskrit</nativeName>
+		<code engine="GT">sa</code>
+	</lang>
+	<lang id="71">
+		<name>Serbian</name>
+		<nativeName>Српски</nativeName>
+		<code engine="GT">sr</code>
+	</lang>
+	<lang id="72">
+		<name>Sindhi</name>
+		<nativeName>Sindhi</nativeName>
+		<code engine="GT">sd</code>
+	</lang>
+	<lang id="73">
+		<name>Sinhalese</name>
+		<nativeName>Sinhalese</nativeName>
+		<code engine="GT">si</code>
+	</lang>
+	<lang id="74">
+		<name>Slovak</name>
+		<nativeName>Slovenčina</nativeName>
+		<code engine="GT">sk</code>
+		<code engine="MS">sk</code>
+	</lang>
+	<lang id="75">
+		<name>Slovenian</name>
+		<nativeName>Slovensko</nativeName>
+		<code engine="GT">sl</code>
+		<code engine="MS">sl</code>
+	</lang>
+	<lang id="76">
+		<name>Spanish</name>
+		<nativeName>Español</nativeName>
+		<code engine="AO">es</code>
+		<code engine="GT">es</code>
+		<code engine="MS">es</code>
+		<code engine="LW">spa</code>
+    <code engine="dbpedia">es</code>
+  </lang>
+	<lang id="77">
+		<name>Swahili</name>
+		<nativeName>Kiswahili</nativeName>
+		<code engine="GT">sw</code>
+	</lang>
+	<lang id="78">
+		<name>Swedish</name>
+		<nativeName>Svenska</nativeName>
+		<code engine="AO">sv</code>
+		<code engine="GT">sv</code>
+		<code engine="MS">sv</code>
+		<code engine="LW">spa</code>
+	</lang>
+	<lang id="79">
+		<name>Tajik</name>
+		<nativeName>Tajik</nativeName>
+		<code engine="GT">tg</code>
+	</lang>
+	<lang id="80">
+		<name>Tamil</name>
+		<nativeName>Tamil</nativeName>
+		<code engine="GT">ta</code>
+	</lang>
+	<lang id="81">
+		<name>Telugu</name>
+		<nativeName>Telugu</nativeName>
+		<code engine="GT">te</code>
+	</lang>
+	<lang id="82">
+		<name>Thai</name>
+		<nativeName>ไทย</nativeName>
+		<code engine="GT">th</code>
+		<code engine="MS">th</code>
+	</lang>
+	<lang id="83">
+		<name>Tibetan</name>
+		<nativeName>Tibetan</nativeName>
+		<code engine="GT">bo</code>
+	</lang>
+	<lang id="84">
+		<name>Turkish</name>
+		<nativeName>Türkçe</nativeName>
+		<code engine="GT">tr</code>
+		<code engine="MS">tr</code>
+	</lang>
+	<lang id="85">
+		<name>Uighur</name>
+		<nativeName>Uighur</nativeName>
+		<code engine="GT">ug</code>
+	</lang>
+	<lang id="86">
+		<name>Ukrainian</name>
+		<nativeName>Українська</nativeName>
+		<code engine="GT">uk</code>
+		<code engine="MS">uk</code>
+	</lang>
+	<lang id="87">
+		<name>Urdu</name>
+		<nativeName>اردو</nativeName>
+		<code engine="GT">ur</code>
+	</lang>
+	<lang id="88">
+		<name>Uzbek</name>
+		<nativeName>Uzbek</nativeName>
+		<code engine="GT">uz</code>
+	</lang>
+	<lang id="89">
+		<name>Vietnamese</name>
+		<nativeName>Tiếng Việt</nativeName>
+		<code engine="GT">vi</code>
+		<code engine="MS">vi</code>
+	</lang>
+	<lang id="90">
+		<name>Welsh</name>
+		<nativeName>Cymraeg</nativeName>
+		<code engine="GT">cy</code>
+	</lang>
+	<lang id="91">
+		<name>Yiddish</name>
+		<nativeName>ייִדיש</nativeName>
+		<code engine="GT">yi</code>
+	</lang>
+</langs>

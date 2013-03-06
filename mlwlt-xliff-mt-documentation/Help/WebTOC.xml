@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="06ae52de-72f9-41af-936d-abaeb19ba045" Title="mlwlt_xliff_mt Namespace" Url="html/ec099345-dd84-1475-e267-5b1234f9ba82.htm">
+    <HelpTOCNode Id="eedb2d4b-250c-475b-a439-cbb8cc5b97b2" Title="Job Class" Url="html/3e282e5a-8b6c-8b64-e43a-51e2c5edf0ea.htm">
+      <HelpTOCNode Title="Job Members" Url="html/02078b65-42e5-7e94-ba9c-54cdc94c0d7a.htm" />
+      <HelpTOCNode Title="Job Constructor " Url="html/fde90876-a013-0aca-1709-f4c6d93cb257.htm" />
+      <HelpTOCNode Title="Job Methods" Url="html/be0952e8-4b6c-b462-80e5-530f01fc0061.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

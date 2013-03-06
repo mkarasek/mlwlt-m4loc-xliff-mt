@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="mlwlt_service_xliff_mt.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RepositoryRoot" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Projects\Internal - .NET\mlwlt\_repository</Value>
+    </Setting>
+    <Setting Name="ConfigurationFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Projects\Internal - .NET\mlwlt\configuration.xml</Value>
+    </Setting>
+    <Setting Name="TikalJAR" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Projects\Internal - .NET\mlwlt\mlwlt-service-xliff-mt\okapi_lib\tikal.jar</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

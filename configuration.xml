@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+    <supported-its-categories>
+        <category as="input">Translate</category>
+        <category as="input">Text Analysis</category>
+        <category as="input">Domain</category>
+        <category as="output">MT Confidence</category>
+        <category as="output">Provenance</category>
+    </supported-its-categories>
+
+    <domain-mapping>
+      <language-pair  source-language="English" target-language="French" default-domain="Generic">
+        <domain name="Generic">
+          <mt-engine>
+            <mt-engine-url>http://dorchadas.moravia.com/cgi-bin/moses_run.pl</mt-engine-url>
+            <mt-engine-port>EN_FR_europarl-1000-no</mt-engine-port>
+          </mt-engine>
+          <its-domains>
+            <its-domain>ITS</its-domain>
+            <its-domain>ITS-Example</its-domain>
+          </its-domains>
+        </domain>
+        <domain name="Legal">
+          <mt-engine>
+            <mt-engine-url>http://dorchadas.moravia.com/cgi-bin/moses_run.pl</mt-engine-url>
+            <mt-engine-port>EN_FR_europarl-no</mt-engine-port>
+          </mt-engine>
+          <its-domains>
+            <its-domain>classical-studies</its-domain>
+            <its-domain>classical-quotes</its-domain>
+          </its-domains>
+        </domain>
+        <domain name="IT">
+          <mt-engine>
+            <mt-engine-url>http://dorchadas.moravia.com/cgi-bin/moses_run.pl</mt-engine-url>
+            <mt-engine-port>EN_FR_itdomain-no</mt-engine-port>
+          </mt-engine>
+          <its-domains>
+            <its-domain>IT</its-domain>
+          </its-domains>
+        </domain>
+      </language-pair>
+
+      <language-pair  source-language="English" target-language="Spanish" default-domain="Generic">
+        <domain name="Generic">
+          <mt-engine>
+            <mt-engine-url>http://dorchadas.moravia.com/cgi-bin/moses_run.pl</mt-engine-url>
+            <mt-engine-port>EN_ES_europarl-1000-no</mt-engine-port>
+          </mt-engine>
+          <its-domains>
+          </its-domains>
+        </domain>
+        <domain name="Legal">
+          <mt-engine>
+            <mt-engine-url>http://dorchadas.moravia.com/cgi-bin/moses_run.pl</mt-engine-url>
+            <mt-engine-port>EN_ES_europarl-no</mt-engine-port>
+          </mt-engine>
+          <its-domains>
+            <its-domain>classical-studies</its-domain>
+            <its-domain>classical-quotes</its-domain>
+          </its-domains>
+        </domain>
+        <domain name="IT">
+          <mt-engine>
+            <mt-engine-url>http://dorchadas.moravia.com/cgi-bin/moses_run.pl</mt-engine-url>
+            <mt-engine-port>EN_ES_itdomain-no</mt-engine-port>
+          </mt-engine>
+          <its-domains>
+            <its-domain>IT</its-domain>
+          </its-domains>
+        </domain>
+      </language-pair>
+
+
+
+    </domain-mapping>
+
+</configuration>

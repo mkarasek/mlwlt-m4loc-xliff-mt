@@ -1,0 +1,5 @@
+﻿ klasické studie
+<n translation="&lt;mrk mtype=&quot;protected&quot;&gt;Homo sum; humani nil a me alienum puto....&lt;/mrk&gt;"> &lt;mrk mtype=&quot;protected&quot;&gt;homo sum; humani nil a ME alienum puto....&lt;/mrk&gt; </n>( lidské; Myslím, že nic lidské cizí mně....)
+Klasické hry slovo latinky je odvozeno z hodnoty '<n translation="&lt;mrk mtype=&quot;protected&quot;&gt;classicus&lt;/mrk&gt;"> &lt;mrk mtype=&quot;protected&quot;&gt;classicus&lt;/mrk&gt; </n>přídavných jmen nejvyšší, které patří do: třídy connoting' občanů superiority autority a dokonalé.
+
+

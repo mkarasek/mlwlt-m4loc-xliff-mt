@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mlwlt-xliff-mt</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:mlwlt_xliff_mt.MT.process_mt_on_inLine_text(System.String,System.String,System.String,System.String)" -->
+        <member name="M:mlwlt_xliff_mt.MT.call_moses_http_request(System.String,System.String,System.String)">
+            <summary>
+                Function calls Moses engine (POST HTTP request) and returns plain text response from the
+                server.
+            </summary>
+            <param name="file_to_be_translated">Path to the in-line text file to be machine translated</param>
+            <param name="url_of_the_service">
+                URL to the service (usually perl script which takes care of 
+                Moses MT at the server side.
+            </param>
+            <param name="engine_name">Nema of the MT engine instance (taken from the configuration)</param>
+            <returns>Plain text form of the web response. Empty in case of error.</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.MT.test_for_errors_and_get_output_file_url(System.String)">
+            <summary>
+                Tests occurence of ERROR string under latest Tikal call in response text. 
+                Also returns URL address of latest <a href=""/>
+            </summary>
+            <param name="html_source">Entire HTML response from the Moses call.</param>
+            <returns>Address to the file with translations. Returns an empty string in case of error(s).</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.MT.DownloadFile(System.String,System.String)">
+            <summary>
+                Downloads file from 'URL' and saves it in 'SaveAsFilePath'
+            </summary>
+            <param name="URL">URL to download from</param>
+            <param name="SaveAsFilePath">Output file path</param>
+            <returns></returns>
+        </member>
+        <member name="T:mlwlt_xliff_mt.Job">
+            <summary>
+                This class is driving a workflow of XLIFF MT pocessing.
+            </summary>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Job.#ctor(System.String,System.Byte[],System.String,System.String,System.String)">
+            <summary>
+                Constructor creates a folder in the repository (defined by RepoRoot parameter) and put
+                the input file in the folder.
+            </summary>
+            <param name="InputFileName">Name of the input file</param>
+            <param name="InputFile">Binary code of the input file</param>
+            <param name="RepoRoot">Root path of the repository</param>
+            <param name="ConfigurationFilePath">Path to the repository XML file</param>
+            <param name="TikalJARfile">Path to "tikal.jar" file</param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Job.Process">
+            <summary>
+                This function is called to start process the job workflow.
+            </summary>
+            <returns>Output file in the same format as the input file.</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Language.get_xliff_source_language(System.String)">
+            <summary>
+                Returns source language from XLIFF File.
+            </summary>
+            <param name="xliff_input_path">Path to the XLIFF file</param>
+            <returns>Language defined in @source-language attribute of &lt;file&gt; element</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Language.get_xliff_target_language(System.String)">
+            <summary>
+                Returns target language from XLIFF File.
+            </summary>
+            <param name="xliff_input_path">Path to the XLIFF file</param>
+            <returns>Language defined in @source-language attribute of &lt;file&gt; element</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Language.get_language_name(System.String)">
+            <summary>
+                Get Language Name based on (a fragment of) text indicating the language
+            </summary>
+            <param name="language_text">Language name to identify</param>
+            <returns>Full language name</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Language.get_language_code_for_engine(System.String,System.String)">
+            <summary>
+                Get Language code based on language name and engine code
+            </summary>
+            <param name="language_name">Language name</param>
+            <param name="engine_name">Engine Name (AO, LW, GT, DBpedia)</param>
+            <returns>Language code for given engine</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.M4Loc.convert_xliff_to_inline_text(System.String)">
+            <summary>
+                Function converting input XLIFF file into an in-line text format, suitable for M4Loc process. In-line text
+                is simple plain-text file format with segment per line, in-line tags of the segments are included as well.
+            </summary>
+            <param name="xliff_input_path">Input XLIFF file</param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.M4Loc.run_a_jar(System.String)">
+            <summary>
+                Runs a Java JAR package (for Tikal calling)
+            </summary>
+            <param name="command">
+                The ommand line of the Java.exe application 
+                (everything succeeded Java.exe on the command line).
+            </param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.M4Loc.prepare_xliff_for_moses(System.String)">
+            <summary>
+                Preparation of the XLIFF file for M4Loc process.
+            </summary>
+            <param name="xliff_file_path">Path to the xliff file</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:mlwlt_xliff_mt.M4Loc.fix_xliff_after_moses(System.String,System.String)" -->
+        <member name="T:mlwlt_xliff_mt.Domain">
+            <summary>
+                Domain class holds functions and mechanisms supporting its-domain category mapped in the XLIFF file.
+                It also implements re-mapping such domains into MT domains installed at service side (based on configuration.xml file).
+            </summary>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Domain.#ctor(System.String,System.String,System.String)">
+            <summary>
+                Domain class takes care of domains in the XLIFF file, their splitting into domain XLIFFs and merging back
+                to the final XLIFF.
+            </summary>
+            <param name="xliff_input_path">Path to the original XLIFF file.</param>
+            <param name="configuration_file_path">Path to the configuration (containing domain mapping information).</param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Domain.Split">
+            <summary>
+                Splits the original XLIFF file into pieces, based on domains implemented by the service 
+                (not by its-domains).
+            </summary>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Domain.Merge(System.String)">
+            <summary>
+                Splitted XLIFF files are merged back into one XLIFF (same XLIFF structure as on input).
+            </summary>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Domain.get_list_of_its_domains_in_XLIFF">
+            <summary>
+                Analyses input XLIFF file and looking for all its domains used in it.
+            </summary>
+            <returns>List of strings containing its domains used in the input XLIFF file.</returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Domain.get_domain_list_mapped">
+            <summary>
+                Analyses input XLIFF file and looking for all its domains used in it. Trying to find a general domain 
+                implemented on the service. As an output, all identified domains are matched with implemented ones
+                together with sugested file name for XLIFF file splitting at the further phase of the workflow.
+            </summary>
+            <returns>
+                List of strictured object, containing its-domain name, matched implemented domain and sugested
+                path of the XLIFF file (for splitting purposes).
+            </returns>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Domain.split_separate_one_domain(mlwlt_xliff_mt.Domain.DomainEntry)">
+            <summary>
+                Splitting XLIFF file into domain XLIFF files.
+            </summary>
+            <param name="domain">
+                Domain Entry specifying domain name as well as mapped its domains 
+                and output XLIFF path
+            </param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Translate.process_translate_in_inLine_text(System.String,System.String)">
+            <summary>
+                Processing its-Translate category. Replaces <mrk/> encoded part of segment into a sentence 
+                using <n/> tag as this tag is treated by Moses as a piece of text which shouldn't be translated.
+            </summary>
+            <param name="inline_input_path">Input inline-text file</param>
+            <param name="inline_output_path">Output inline-text file</param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Provenance.insert_provenance_records(System.String,System.String)">
+            <summary>
+                Inserts a provenance records to the header of the XLIFF file
+            </summary>
+            <param name="xliff_input_path">Path to the XLIFF file</param>
+            <param name="newID">A new ID for current provenance record</param>
+        </member>
+        <member name="M:mlwlt_xliff_mt.Provenance.get_provenance_record_id(System.String)">
+            <summary>
+                Gets a new provenance record id (looking for a max ID in the provenance records and 
+                incremented by 1)
+            </summary>
+            <param name="xliff_input_path">Path to the XLIFF file</param>
+            <returns>A new provenance ID</returns>
+        </member>
+    </members>
+</doc>

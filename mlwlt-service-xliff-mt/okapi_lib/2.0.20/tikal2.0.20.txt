@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Okapi Tikal - Localization Toolset
+Version: 2.0.20
+-------------------------------------------------------------------------------
+Shows this screen: -?
+Shows version and other information: -i or --info
+Opens the user guide page: -h or --help
+Lists all available filter configurations: -lfc or --listconf
+Outputs all messages to the current logger instead of the console: -logger
+Outputs debug messages when in console mode (no effect on logger): -trace
+Does not abort batch processing in case of individual errors: -continue
+Edits or view filter configurations (UI-dependent command):
+   -e [[-fc] configId] [-pd configDirectory]
+Extracts a file to XLIFF (and optionally segment and pre-translate):
+   -x inputFile [inputFile2...] [-fc configId] [-ie encoding] [-sl srcLang]
+      [-tl trgLang] [-seg [srxFile]] [-tt [hostname[:port]]|-mm [key]
+      |-pen tmDirectory|-gs configFile|-apertium [configFile]
+      |-ms configFile|-tda configFile|-gg configFile]
+      [-maketmx [tmxFile]] [-opt threshold] [-od outputDirectory]
+      [-rd rootDirectory] [-nocopy] [-noalttrans] [-pd configDirectory]
+Merges an XLIFF document back to its original format:
+   -m xliffFile [xliffFile2...] [-fc configId] [-ie encoding] [-oe encoding]
+      [-sd sourceDirectory] [-od outputDirectory] [-pd configDirectory]
+      [-sl srcLang] [-tl trgLang]
+Translates a file:
+   -t inputFile [inputFile2...] [-fc configId] [-ie encoding] [-oe encoding]
+      [-sl srcLang] [-tl trgLang] [-seg [srxFile]] [-tt [hostname[:port]]
+      |-mm [key]|-pen tmDirectory|-gs configFile|-apertium [configFile]
+      |-ms configFile|-tda configFile|-gg configFile] [-rd rootDirectory]
+      [-maketmx [tmxFile]] [-opt threshold] [-pd configDirectory]
+Extracts a file to Moses InlineText:
+   -xm inputFile [-fc configId] [-ie encoding] [-seg [srxFile]] [-2]
+      [-sl srcLang] [-tl trgLang] [-to srcOutputFile] [-rd rootDirectory]
+Leverages a file with Moses InlineText:
+   -lm inputFile [-fc configId] [-ie encoding] [-oe encoding] [-sl srcLang]
+      [-tl trgLang] [-seg [srxFile]] [-totrg|-overtrg] [-bpt]
+      [-from mosesFile] [-to outputFile] [-rd rootDirectory] [-noalttrans]
+Segments a file:
+   -s inputFile [-fc configId] [-ie encoding] [-rd rootDirectory]
+      [-sl srcLang] [-tl trgLang] [-seg [srxFile]] [-pd configDirectory]
+Queries translation resources:
+   -q "source text" [-sl srcLang] [-tl trgLang] [-opentran]
+      [-tt [hostname[:port]]] [-mm [key]] [-pen tmDirectory] [-gs configFile]
+      [-apertium [configFile]] [-ms configFile] [-tda configFile]
+      [-gg configFile] [-opt threshold[:maxhits]]
+Adds translation to a resources:
+   -a "source text" "target text" [rating] [-sl srcLang] [-tl trgLang]
+      -ms configFile
+Converts to PO format:
+   -2po inputFile [inputFile2...] [-fc configId] [-ie encoding] [-all]
+      [-generic] [-sl srcLang] [-tl trgLang] [-trgsource|-trgempty]
+      [-rd rootDirectory] [-pd configDirectory]
+Converts to TMX format:
+   -2tmx inputFile [inputFile2...] [-fc configId] [-ie encoding] [-all]
+      [-sl srcLang] [-tl trgLang] [-trgsource|-trgempty] [-rd rootDirectory]
+      [-pd configDirectory]
+Converts to table format:
+   -2tbl inputFile [inputFile2...] [-fc configId] [-ie encoding]
+      [-sl srcLang] [-tl trgLang] [-trgsource|-trgempty] [-csv|-tab]
+      [-xliff|-xliffgx|-tmx|-generic] [-all] [-rd rootDirectory]
+      [-pd configDirectory]
+Imports to Pensieve TM:
+   -imp tmDirectory inputFile [inputFile2...] [-fc configId] [-ie encoding]
+      [-sl srcLang] [-tl trgLang] [-trgsource|-trgempty] [-all] [-over]
+      [-rd rootDirectory] [-pd configDirectory]
+Exports Pensieve TM as TMX:
+   -exp tmDirectory1 [tmDirectory2...] [-sl srcLang] [-tl trgLang]
+      [-trgsource|-trgempty] [-all]
